@@ -11,7 +11,7 @@ const EXAMPLE_PROMPTS = [
   "A landing page for a fitness app called StrideAI",
 ];
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:3001";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "";
 const BUILDS_KEY = "forge_builds";
 
 function loadBuilds() {
